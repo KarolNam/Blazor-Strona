@@ -1,0 +1,49 @@
+﻿@inject IJSRuntime JS
+@using Client.Components
+@page "/kalkulator"
+<PageTitle>Kalkulator</PageTitle>
+<h1>Kalkulator</h1>
+<h4>Dostępne operacje:</h4>
+<h4>1 - Dodawanie</h4>
+<h4>2 - Odejmowanie</h4>
+<h4>3 - Mnożenie</h4>
+<h4>4 - Dzielenie</h4>
+
+
+<div class="form-group">
+    <label>Jaką operację chcesz wykonać?</label>
+    <input type="text" class="form-control" @bind-value="@opcja"/>
+</div>
+<div class="form-group mt-3">
+    <button class="btn btn-primary" @onclick="operacja">Zatwierdź</button>
+</div>
+<Calculator Operation="@opcja"></Calculator>
+
+@code {
+    string opcja = "/";
+
+    async Task operacja()
+    {
+        if (opcja == "1")
+        {
+            opcja = "+";
+        }        
+        else if (opcja == "2")
+        {
+            opcja = "-";
+        }  
+        else if (opcja == "3")
+        {
+            opcja = "*";
+        }         
+        else if (opcja == "4")
+        {
+            opcja = "/";
+        }
+        else
+        {
+            await JS.InvokeVoidAsync("showError", opcja);
+            return;
+        }   
+    }
+}

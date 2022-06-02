@@ -1,0 +1,79 @@
+@page "/lista"
+@using BlazorApp
+@inject HttpClient Http
+
+<PageTitle>Lista użytkowników</PageTitle>
+<h3>Lista użytkowników</h3>
+<p>Dobrowolna lista użytkowników kalkulatora.</p>
+
+<div class="mt-3">
+@if (users != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">L.p.</th>
+                <th scope="col">Imię</th>
+                <th scope="col">Nazwisko</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var u in users)
+            {
+                <tr>
+                    <td scope="row">@u.UserId</td>
+                    <td>@u.FirstName</td>
+                    <td>@u.LastName</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p><em>Trwa wczytywanie danych...</em></p>
+}
+<h2>Nowy użytkownik</h2>
+<div class="mt-5">
+        <div class="row">
+            <div class="col-sm">
+                <div class="form-group">
+                    <label for="name">Imię</label>
+                    <input type="text" class="form-control" id="name" @bind-value="@fn"> 
+                </div>
+                <div class="form-group mt-2">
+                    <label for="surname">Nazwisko</label>
+                    <input type="text" class="form-control" id="surname" @bind-value="@ln"> 
+                </div>
+                <button class="btn btn-primary mt-3" @onclick="AddUser">Zapisz</button>
+            </div>
+            <div class="col-sm"></div>
+            <div class="col-sm"></div>
+        </div>
+    </div>
+</div>
+
+@code {
+    List<User> users;
+    private string FirstName;
+    private string LastName;
+    private string fn;
+    private string ln;
+
+    protected override void OnInitialized()
+    {
+        users = new List<User>()
+            {
+                new User(1, "Karol", "Namieciński")
+            };
+    }
+    void AddUser()
+    {
+        var nowy = new User();
+        nowy.UserId = users.Max(u => u.UserId) + 1;
+        nowy.FirstName = fn;
+        nowy.LastName = ln;
+        users.Add(nowy);
+        fn = ln = string.Empty;
+    }
+}
