@@ -11,49 +11,49 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = Client
 build_property.RootNamespace = Client
-build_property.ProjectDir = c:\Studia\2 semestr\wybrane środowiska programowania ćw\Blazor-Strona\Client\
+build_property.ProjectDir = C:\Studia\2 semestr\wybrane środowiska programowania ćw\Blazor-Strona\Client\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Studia\2 semestr\wybrane środowiska programowania ćw\Blazor-Strona\Client
+build_property.MSBuildProjectDirectory = C:\Studia\2 semestr\wybrane środowiska programowania ćw\Blazor-Strona\Client
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Studia/2 semestr/wybrane środowiska programowania ćw/Blazor-Strona/Client/App.razor]
+[C:/Studia/2 semestr/wybrane środowiska programowania ćw/Blazor-Strona/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Studia/2 semestr/wybrane środowiska programowania ćw/Blazor-Strona/Client/Pages/Counter.razor]
+[C:/Studia/2 semestr/wybrane środowiska programowania ćw/Blazor-Strona/Client/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Studia/2 semestr/wybrane środowiska programowania ćw/Blazor-Strona/Client/Pages/FetchData.razor]
+[C:/Studia/2 semestr/wybrane środowiska programowania ćw/Blazor-Strona/Client/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Studia/2 semestr/wybrane środowiska programowania ćw/Blazor-Strona/Client/Pages/Index.razor]
+[C:/Studia/2 semestr/wybrane środowiska programowania ćw/Blazor-Strona/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Studia/2 semestr/wybrane środowiska programowania ćw/Blazor-Strona/Client/Pages/Uzytkownicy.razor]
+[C:/Studia/2 semestr/wybrane środowiska programowania ćw/Blazor-Strona/Client/Pages/Uzytkownicy.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXp5dGtvd25pY3kucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Studia/2 semestr/wybrane środowiska programowania ćw/Blazor-Strona/Client/Shared/SurveyPrompt.razor]
+[C:/Studia/2 semestr/wybrane środowiska programowania ćw/Blazor-Strona/Client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Studia/2 semestr/wybrane środowiska programowania ćw/Blazor-Strona/Client/_Imports.razor]
+[C:/Studia/2 semestr/wybrane środowiska programowania ćw/Blazor-Strona/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Studia/2 semestr/wybrane środowiska programowania ćw/Blazor-Strona/Client/Components/Calculator.razor]
+[C:/Studia/2 semestr/wybrane środowiska programowania ćw/Blazor-Strona/Client/Components/Calculator.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDYWxjdWxhdG9yLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-eriugntqf4
 
-[c:/Studia/2 semestr/wybrane środowiska programowania ćw/Blazor-Strona/Client/Shared/MainLayout.razor]
+[C:/Studia/2 semestr/wybrane środowiska programowania ćw/Blazor-Strona/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-ocnk4r8tjs
 
-[c:/Studia/2 semestr/wybrane środowiska programowania ćw/Blazor-Strona/Client/Shared/NavMenu.razor]
+[C:/Studia/2 semestr/wybrane środowiska programowania ćw/Blazor-Strona/Client/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-kd1ih0s86n

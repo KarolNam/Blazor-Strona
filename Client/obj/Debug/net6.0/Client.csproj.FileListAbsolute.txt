@@ -814,3 +814,7 @@ C:\Studia\2 semestr\wybrane środowiska programowania ćw\Blazor-Strona\Client\o
 C:\Studia\2 semestr\wybrane środowiska programowania ćw\Blazor-Strona\Client\obj\Debug\net6.0\Client.pdb
 C:\Studia\2 semestr\wybrane środowiska programowania ćw\Blazor-Strona\Client\obj\Debug\net6.0\ref\Client.dll
 C:\Studia\2 semestr\wybrane środowiska programowania ćw\Blazor-Strona\Client\obj\Debug\net6.0\scopedcss\Components\Calculator.razor.rz.scp.css
+C:\Studia\2 semestr\wybrane środowiska programowania ćw\Blazor-Strona\Client\bin\Debug\net6.0\wwwroot\_framework\MatBlazor.dll
+C:\Studia\2 semestr\wybrane środowiska programowania ćw\Blazor-Strona\Client\bin\Debug\net6.0\wwwroot\_framework\MatBlazor.dll.gz
+C:\Studia\2 semestr\wybrane środowiska programowania ćw\Blazor-Strona\Client\bin\Debug\net6.0\MatBlazor.dll
+C:\Studia\2 semestr\wybrane środowiska programowania ćw\Blazor-Strona\Client\obj\Debug\net6.0\build-gz\jyD8ikTv.gz

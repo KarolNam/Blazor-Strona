@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MuQmGv8eWIMhLgoG7YAifNdyv0iHMs9a0YGZmbCZ+mMIdaH8mmC+jFFEVB+3qaW/5G9OQlDC4cRSXB/sutMifw==",
+  "dgSpecHash": "paN0rEV8NWKmoEGcpeWL1s7Dq7bn9Zg2+8H+eQanyOp7SLrdFcZZprRnlTHHGvy0kyrDkzquo66s/rqevUFoiA==",
   "success": true,
   "projectFilePath": "C:\\Studia\\2 semestr\\wybrane środowiska programowania ćw\\Blazor-Strona\\Client\\Client.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\nkaro\\.nuget\\packages\\matblazor\\2.8.0\\matblazor.2.8.0.nupkg.sha512",
     "C:\\Users\\nkaro\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.5\\microsoft.aspnetcore.authorization.6.0.5.nupkg.sha512",
     "C:\\Users\\nkaro\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.5\\microsoft.aspnetcore.components.6.0.5.nupkg.sha512",
     "C:\\Users\\nkaro\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.5\\microsoft.aspnetcore.components.analyzers.6.0.5.nupkg.sha512",
